@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(31, 61, 130);
+    background-color: rgb(162, 180, 223);
     }
 
 * {
@@ -11,18 +11,14 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 3;
-    background-image: url(./stockimg.webp);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    background-color: rgb(52, 84, 159);
+    color: black;
+    background-color: rgb(180, 179, 179);
 }
 
 h1 {
@@ -31,17 +27,17 @@ h1 {
 }
 
 h2{
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 p {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    border: solid  10px white;
+    border: solid  10px rgb(0, 0, 0);
     border-radius: 30px;
     margin-left: 12%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav ul{
@@ -53,5 +49,12 @@ nav a {
     margin: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
