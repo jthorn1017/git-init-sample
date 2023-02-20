@@ -1,11 +1,17 @@
-/* :root {
-    background-color: rgb(189, 168, 135);
-} */
+:root {
+    background-color: rgb(213, 215, 211);
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     display: flex;
     flex-direction: column;
-    line-height: 4;
+    line-height: 3;
+    background-image: url("nature.jpg");
 }
 
 header {
@@ -24,20 +30,20 @@ h1 {
 p {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: solid  10px rgb(0, 84, 0);
+    border-radius: 30px;
     margin-left: 12%;
 }
 
 nav ul{
     display:flex;
-    justify-content: space-between;
-    margin: 50px;
-    min-width: 300px;
     list-style: none;
 }
 
 nav a {
-    display: inline;
     margin: 30px;
     font-weight: bold;
     text-decoration: none;
+    color:rgb(0, 84, 0);
 }
