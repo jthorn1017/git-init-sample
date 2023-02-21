@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(162, 180, 223);
+    background-color: rgb(255, 255, 255);
     }
 
 * {
@@ -17,8 +17,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
-    background-color: rgb(180, 179, 179);
+    color: white;
+    background-color: rgb(10, 28, 134);
+    font-family: Arial;
 }
 
 h1 {
@@ -27,17 +28,15 @@ h1 {
 }
 
 h2{
-    color:rgb(0, 0, 0);
+    color:rgb(10, 20, 134);
 }
 
 p {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    border: solid  10px rgb(0, 0, 0);
+    font-family: Arial;
+    padding: 20px;
     border-radius: 30px;
     margin-left: 12%;
-    color: rgb(0, 0, 0);
+    color: rgb(10, 20, 134);
 }
 
 nav ul{
@@ -49,7 +48,8 @@ nav a {
     margin: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial;
 }
 
 img{
@@ -57,4 +57,26 @@ img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.placeholder {
+    width: 150px;
+    height: 120px;
+    transform: rotate(20deg);
+    border-radius: 50px;
+}
+
+.stock_images {
+    border: solid  10px rgb(0, 0, 0);
+    display: flex;
+    width:75%;
+    margin-left: 24%;
+    padding: 10px;
+}
+
+.about_me {
+    border: solid  10px rgb(0, 0, 0);
+    display: flex;
+    width:75%;
+    margin-left: 24%;
 }
